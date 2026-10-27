@@ -1,0 +1,32 @@
+# Entorno local
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# TLS / certificados (nunca versionar claves privadas)
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Logs y artefactos
+*.log
+logs/
+dist/
+build/
+*.egg-info/
+
+# Editores / sistema
+.idea/
+.vscode/
+.DS_Store
